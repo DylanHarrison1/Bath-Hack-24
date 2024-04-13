@@ -1,5 +1,6 @@
 import random as ran
 import pandas as pd
+import os
 
 def createNumberPlate():
     """Returns a random number plate (May not be valid)"""
@@ -19,4 +20,6 @@ for i in range(1000):
     x.append(createNumberPlate())
 
 
-print(x)
+df = pd.read_csv(os.getcwd() + "\\Training Data.csv")
+df["Plates"] = x
+df.to_csv(os.getcwd() + "\\Training Data.csv")
