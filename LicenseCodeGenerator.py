@@ -15,6 +15,8 @@ def createNumberPlate():
     return plate
 
 
+
+
 x = list()
 for i in range(1000):
     x.append(createNumberPlate())
