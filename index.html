@@ -131,9 +131,17 @@
                </div>
                <div class="col-md-6">
                   <div class="full blog_cont">
-                     <h4>The biggest and most awesome camera  of  year</h4>
+                     <h4>License Plate of the Day</h4>
                      <h5>MAY 14 2019 5 READ</h5>
                      <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                     
+                     <script>
+                        window.onload = function() {
+                            resultDay();
+                        };
+                    </script>
+                    <p id="resultday"></p>
+
                   </div>
                </div>
             </div>
@@ -146,6 +154,10 @@
                      <h4>What 3 years of android taught me the hard way</h4>
                      <h5>MAY 19 2019  5 READ</h5>
                      <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                  
+                     <input type="text" id="textBox">
+                     <button onclick="resultName()">Submit</button>
+                     <p id="resultname"></p>
                   </div>
                </div>
             </div>
@@ -274,5 +286,6 @@
       <!-- Scrollbar Js Files -->
       <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
       <script src="js/custom.js"></script>
+      <script src="js/randdate.js" defer></script>
    </body>
 </html>
