@@ -160,7 +160,7 @@
                      <p>Many people have been emailing me asking about what license plate number I think they would be if they were a license plate number? This is an exellent question! Due to extremely popular demand (thank you Phillip and Matt for your suggestions!), I am adding a new interactive tool to my blog, allowing you to input your name and find out what license plate number you would be if you were a license plate number!</p>
                   
                      <input type="text" id="textBox">
-                     <button onclick="resultName()">Submit</button>
+                     <button onclick="resultName(); document.getElementById('textBox').value = '';">Submit</button>
                      <p id="resultname"></p>
                      <p>Please feel free to share your results with me by email! I'd love to know what you got!</p>
                      <p>- Mike</p>
