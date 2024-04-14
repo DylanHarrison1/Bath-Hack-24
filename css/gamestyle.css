@@ -13,6 +13,7 @@
 	border: 1px solid #999999;
 	display: table-cell;
 	padding: 3px 10px;
+	border-radius: 10px
 }
 .divTableHeading {
 	background-color: #EEE;
@@ -29,9 +30,9 @@
 }
 
 .selected {
-    background-color: aqua;
+    background-color: #114c7d;
 }
 
 .correct {
-    background-color: green;
+    background-color: #38c8a8;
 }
